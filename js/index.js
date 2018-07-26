@@ -57,7 +57,7 @@ window.cancelAnimationFrame = window.cancelAnimationFrame||clearTimeout;
 			oScore.innerHTML = 0;
 			oFinal.style.display = "none";
 			cancelAnimationFrame(oWrap.bgTimer)
-			oWrap.innerHTML = '<h3 class="title">飞机大战1.0</h3>'+
+			oWrap.innerHTML = '<h3 class="title">AirplaneGameV1.0</h3>'+
 					    	'<div class="d1">简单模式</div>'+
 					    	'<div class="d2">中等模式</div>'+
 					    	'<div class="d3">困难模式</div>'+
